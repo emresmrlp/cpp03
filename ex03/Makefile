@@ -6,12 +6,12 @@
 #    By: ysumeral < ysumeral@student.42istanbul.com +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/09/06 19:16:08 by ysumeral          #+#    #+#              #
-#    Updated: 2025/09/07 18:42:26 by ysumeral         ###   ########.fr        #
+#    Updated: 2025/09/07 18:46:55 by ysumeral         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CXX = c++
-CXXFLAGS = -Wall -Wextra -Werror -std=c++98
+CXXFLAGS = -Wall -Wextra -Werror -Wshadow -std=c++98
 SRC =	main.cpp \
 		ScavTrap.cpp \
 		DiamondTrap.cpp \

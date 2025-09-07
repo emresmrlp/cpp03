@@ -6,7 +6,7 @@
 /*   By: ysumeral < ysumeral@student.42istanbul.com +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/07 11:39:17 by ysumeral          #+#    #+#             */
-/*   Updated: 2025/09/07 18:31:05 by ysumeral         ###   ########.fr       */
+/*   Updated: 2025/09/07 18:46:16 by ysumeral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #include "ScavTrap.hpp"
 #include "FragTrap.hpp"
 
-class DiamondTrap : public FragTrap, public ScavTrap
+class DiamondTrap : virtual public FragTrap, virtual public ScavTrap
 {
 public:
 	DiamondTrap();
