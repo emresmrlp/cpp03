@@ -6,7 +6,7 @@
 /*   By: ysumeral < ysumeral@student.42istanbul.com +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/07 14:25:42 by ysumeral          #+#    #+#             */
-/*   Updated: 2025/09/07 14:57:42 by ysumeral         ###   ########.fr       */
+/*   Updated: 2025/09/07 17:15:27 by ysumeral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,5 +36,5 @@ int main()
 	murder.takeDamage(10000);
 	cadet.takeDamage(10000);
     std::cout << "\n--- BATTLE END ---\n";
-    return 0;
+    return (0);
 }

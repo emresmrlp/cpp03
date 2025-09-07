@@ -6,7 +6,7 @@
 /*   By: ysumeral < ysumeral@student.42istanbul.com +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/07 14:25:42 by ysumeral          #+#    #+#             */
-/*   Updated: 2025/09/07 16:46:30 by ysumeral         ###   ########.fr       */
+/*   Updated: 2025/09/07 17:25:39 by ysumeral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,6 @@ int main()
 	std::cout << "(INFO) Yunus cannot catch his speed and Lucifer is about to die as the arena collapses..." << std::endl;
 	demon.takeDamage(10000);
 	cadet.takeDamage(10000);
-    std::cout << "\n--- BATTLE END ---" << std::endl;;
-    return 0;
+    std::cout << "\n--- BATTLE END ---\n" << std::endl;
+    return (0);
 }
