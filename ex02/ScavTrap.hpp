@@ -6,7 +6,7 @@
 /*   By: ysumeral < ysumeral@student.42istanbul.com +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/07 11:39:06 by ysumeral          #+#    #+#             */
-/*   Updated: 2025/09/07 17:02:53 by ysumeral         ###   ########.fr       */
+/*   Updated: 2025/09/07 17:46:01 by ysumeral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,6 @@ public:
 	void	attack(const std::string& target);
 	void	guardGate();
 	bool	isInGateMode();
-private:
+protected:
 	bool	isGuard;
 };
